@@ -57,8 +57,16 @@ img {vertical-align: middle;}
   position: relative;
   z-index: -1; /* Add this line to move the slideshow behind the navigation bar */
 }
-
-
+#how-it-works {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+#how-it-works > iframe {
+  max-width: 560px;
+  width: 100%;
+ 
+}
 /* Caption text */
 .text {
   color: #000000;
