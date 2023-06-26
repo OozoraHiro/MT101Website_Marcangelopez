@@ -1,0 +1,183 @@
+body {
+    font-family: Arial,sans-serif;
+    margin: 0;
+   
+    
+}
+header h1 {
+   color:white;
+    text-align:left;
+    padding-left:100px;
+}
+
+
+img{
+    width: 60px;
+    float:left;
+    padding-left:20px;
+  
+}
+
+.Reviews{
+  background-color:#eeeeee;
+  padding-bottom:40px;
+}
+.homey{
+    text-align:initial;
+    padding:200px;
+    font-size:55px;
+    background-image:url(img/494840.jpg);
+    object-fit:fill;
+    background-repeat:no-repeat;
+    color:rgb(228, 205, 0);
+    background-size: cover;  
+}
+.lower{
+  text-align: left;
+}
+.book-now{
+  border: none;
+  background-color:rgb(228, 205, 0);
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 30px;
+}
+.book-now:hover {background: #eee;}
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+.slideshow-container {
+  max-width: 1000px; /* Update the value as per your requirement */
+  margin: auto;
+  padding-right: 80px;
+  position: relative;
+  z-index: -1; /* Add this line to move the slideshow behind the navigation bar */
+}
+
+
+/* Caption text */
+.text {
+  color: #000000;
+  font-size: 15px;
+  padding: 30px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color:rgb(228, 205, 0);
+  font-size: 12px;
+  padding-left: 20px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #ebebeb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  position: relative; /* Add this line */
+  top: -50px; /* Adjust this value as needed */
+}
+
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+.serbisyo{
+    text-align: center;
+    font-size:x-large;
+
+}
+.car-tune-ups{
+  font-size: x-large;
+}
+
+
+.fixed {
+  position: fixed;
+  width: 100%;
+  z-index: 999; /* Add this line to ensure the navigation bar stays on top */
+    
+}
+.div-nav{
+    background-color: black;
+    padding:20px;
+}
+
+.tungkol-satin{
+    background-color:rgb(255, 255, 255);
+    padding-bottom:100px;
+    font-size:large;
+}
+.tawag{
+  font-weight: bold;
+  padding-bottom: 80px;
+  background-color:#a3a3a3
+}
+h1 {
+    margin: 0;
+    text-align:center;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align:right;
+}
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    color:rgb(228, 205, 0);
+    text-decoration: none;
+}
+section {
+    padding-top:100px;
+    padding-left: 50px;;
+}
+footer {
+    background-color: #000000;
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}   
+.serbises{
+  background-color: #eeeeee;
+  padding-bottom: 70px;
+  top:-0px;
+}
+.projects{
+ padding-bottom: 60%;
+}

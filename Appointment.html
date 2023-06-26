@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+<head>
+    <title>MCL Auto</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class='fixed'>
+     <header>
+        
+        
+        <div class="div-nav">
+            <img src="img/MCL.png">
+            <h1>MCL Auto</h1>
+
+        <nav>
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#Reviews">Reviews</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#Services">Services</a></li>
+                <li><a href="#About Us">About Us</a></li>
+                <li><a href="#Contacts">Contact</a></li>
+            </ul>
+        </nav>
+    </div >
+</div>
+    </header>
+   
+   
+    <section class="homey" id="Home">   
+        <h3>Revive Your Vehicle's Performance </h3>
+        <div class="lower">
+        <p>Trust our expert mechanics to keep your ride running smoothly. Schedule a check-up today!</p>
+      </div>
+        <button class="book-now" id="Contacts">
+         BOOK NOW!
+        </button></a>
+    </section>
+        
+   <section class='Reviews' id="Reviews">
+    <h1>MCL Auto is the best mechanic in Lingayen! They fixed my car quickly and efficiently. The staff was friendly and knowledgeable. I highly recommend them to anyone needing car repairs. Thank you MCL Auto for your excellent service!</h1>
+   <h3>-Ruth</h3>
+   </section>
+   <section class="projects" id="Projects">
+   <h1>Projects</h1>
+   
+   
+   <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 7</div>
+      <img src="img/Lopez,Marc+AngeloC._Activity4++Front+Design.png" style="width:100%">
+      <div class="text">MCL Auto Brochure Front Design</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 7</div>
+      <img src="img/Lopez,Marc+AngeloC._Activity4++Back+Design.png" style="width:100%">
+      <div class="text">MCL Auto Brochure Back Design</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 7</div>
+      <img src="img/Screenshot 2023-06-14 141532.png" style="width:100%">
+      <div class="text">3D SketchUp Design of MCL Auto</div>
+    </div>
+    
+    <div class="mySlides fade">
+        <div class="numbertext">4 / 7</div>
+        <img src="img/MCL.png" style="width:100%">
+        <div class="text">MCL Auto Logo design</div>
+      </div>
+      
+      <div class="mySlides fade">
+        <div class="numbertext">5 / 7</div>
+        <img src="img/Screenshot 2023-06-14 211223.jpg" style="width:100%">
+        <div class="text">MCL Auto Tarpaulin</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">6 / 7</div>
+        <img src="img/Screenshot 2023-06-14 211612.jpg" style="width:100%">
+        <div class="text">T-Shirt Designs</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">7 / 7</div>
+        <img src="img/Lopez,Marc Angelo C._Activity3 Back Design.jpg" style="width:100%">
+        <div class="text">MCL Auto Calling Card</div>
+      </div>
+    
+   
+    
+    
+    </div>
+   
+    
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+      <span class="dot" onclick="currentSlide(4)"></span> 
+      <span class="dot" onclick="currentSlide(5)"></span> 
+      <span class="dot" onclick="currentSlide(6)"></span> 
+      <span class="dot" onclick="currentSlide(7)"></span> 
+    </div>
+    
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";
+          dots[slideIndex-1].className += " active";
+        }
+        </script>
+   </section>
+   
+
+   <section class='serbises'id="Services">
+
+    <div class="serbisyo">
+     <h2>Services</h2>
+     </div>
+     <div class="car-tune-ups">
+         <p>We offer:</p>
+        <ul>
+         <li>Minor and Major Repairs</li>
+         <li>
+             Car Air Conditioning Repairs
+         </li>
+         <li>
+             Wheel Alignment / Wheel Balancing
+         </li>
+         <li>
+             Tire / Rim Change
+         </li>
+         <li>
+             Tint Services
+         </li>
+         <li>Car Wash and Auto Detailling</li>
+         <li>
+             Auto Electrical Service
+         </li>
+         <li>
+             Custom Modifications
+         </li>
+             <li>
+                Car Tune-ups
+             </li>
+             <li>
+                 Brake Services
+             </li>
+             <li>
+                 Oil Changes
+             </li>
+         </ul>
+     </div>
+
+
+
+
+ </section>
+
+ <section class='tungkol-satin' id="About Us">
+     <h2>About Us</h2>
+     <p>MCL Auto is a trusted name in the mechanic industry, serving Lingayen, Pangasinan and surrounding areas. Our team of experts is dedicated to providing top-notch service to our customers.
+         At MCL Auto, we pride ourselves on our commitment to quality workmanship and customer satisfaction. Whether you need routine maintenance or major repairs, we have the skills and experience to get the job done right. Contact us today to schedule an appointment.</p>
+ </section>
+
+ <section class='tawag'id="Contacts">
+     <h2>Contacts</h2>
+     <p>Book an appointment and call us!</p>
+     <p>Email: </p>
+     <p>Phone: 0995-018-1924 / 0939-248-2206
+     </p>
+ </section>
+
+ <footer>
+     <p>&copy; 2023 MCL Auto. All rights reserved.</p>
+ </footer>
+</body>
+</html>
+   
